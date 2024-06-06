@@ -14,7 +14,7 @@ export const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-            sint.
+            sint. hello
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full sm:mr-4 mb-2 bg-white hover:bg-slate-200 text-black">
