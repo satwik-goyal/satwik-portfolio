@@ -20,7 +20,7 @@ export const HeroSection = () => {
             <button className="px-6 py-3 w-full sm:w-fit rounded-full sm:mr-4 mb-2 bg-white hover:bg-slate-200 text-black">
               Hire Me!
             </button>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 text-white border border-white">
+            <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-r from-cyan-500 to-blue-800 text-white border border-white">
               Download CV
             </button>
           </div>
