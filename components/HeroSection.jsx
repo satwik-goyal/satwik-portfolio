@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
 
 export const HeroSection = () => {
   return (
@@ -10,7 +12,22 @@ export const HeroSection = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-700">
               Hello, I am{" "}
             </span>
-            Satwik
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                "Satwik",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "a Programmer",
+                1000,
+                "an Engineer",
+                1000,
+                "awesom",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
