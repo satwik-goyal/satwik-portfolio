@@ -10,12 +10,18 @@ export const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-700">
-              Hello,{" "}
+              Hello,I am{" "}
             </span>
             <TypeAnimation
               sequence={[
+                "Satwik",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
                 // Same substring at the start will only be typed out once, initially
-                "I am Satwik and I am a Developer.",
+                "a Software Developer",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "a Machine Learning Engineer",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "a Data Scientist",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
               ]}
               wrapper="span"

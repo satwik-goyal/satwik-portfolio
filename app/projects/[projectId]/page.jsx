@@ -13,7 +13,11 @@ const ProjectDetails = ({ params }) => {
     return <div>Project not found</div>;
   }
 
-  return <h1>Hello World</h1>;
+  return (
+    <div className="mt-4 pt-24">
+      <h1>Hello World</h1>
+    </div>
+  );
 };
 
 export default ProjectDetails;

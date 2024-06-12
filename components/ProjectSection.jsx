@@ -59,8 +59,8 @@ const ProjectSection = () => {
   };
 
   return (
-    <>
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+    <section id="projects" className="pt-24">
+      <h2 className="text-center text-6xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
       <div className="flex flex-row justify-center items-center gap-2 text-white my-6">
@@ -80,7 +80,7 @@ const ProjectSection = () => {
           isSelected={tag == "Machine Learning"}
         />
       </div>
-      <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-12 max-w-6xl mx-auto">
         {filteredProjects.map((project, index) => (
           <ProjectCard
             key={project.id}
@@ -91,7 +91,7 @@ const ProjectSection = () => {
           />
         ))}
       </div>
-    </>
+    </section>
   );
 };
 

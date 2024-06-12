@@ -8,19 +8,19 @@ import MenuOverlay from "./MenuOverlay";
 const menuLinks = [
   {
     title: "About",
-    path: "#about",
+    path: "/#about",
   },
   {
     title: "Blog",
-    path: "#blog",
+    path: "/#blog",
   },
   {
     title: "Projects",
-    path: "#projects",
+    path: "/projects",
   },
   {
     title: "Contact",
-    path: "#contact",
+    path: "/#contact",
   },
 ];
 export const Navbar = () => {

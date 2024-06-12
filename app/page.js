@@ -2,14 +2,16 @@ import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 
 import AboutSection from "@/components/AboutSection";
-import ProjectSection from "@/components/ProjectSection";
+import Education from "@/components/Education";
 
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <AboutSection />
-      <ProjectSection />
+      <div class="container mt-24 mx-auto px-12 py-4">
+        <HeroSection />
+        <AboutSection />
+        <Education />
+      </div>
     </>
   );
 }
